@@ -1,0 +1,1 @@
+Practice working with object literals in JavaScript.
