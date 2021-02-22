@@ -1,4 +1,5 @@
-// After the object literal, create a variable called numWords and set it the return value from the countWords() method using either dot or bracket notation.
+// After the object literal, create a new property (using dot OR bracket notation) called characters.
+// This property should be set to the number of characters in the phrase held in the string property.
 const myString = {
   string: 'Programming with Treehouse is fun!',
   countWords: function() {
@@ -8,3 +9,6 @@ const myString = {
 };
 const numWords = myString.countWords();
 console.log(numWords);
+
+myString.characters = myString.string.length;
+console.log(myString.characters);
