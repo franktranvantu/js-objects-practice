@@ -12,3 +12,4 @@ myString.characters = myString.string.length;
 myString.string = 'I love full stack JavaScript';
 
 var numWords = myString.countWords();
+console.log(myString);
